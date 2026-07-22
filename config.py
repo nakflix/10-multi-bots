@@ -107,9 +107,9 @@ MAX_BOTS = int(os.environ.get("MAX_BOTS", "10"))
 
 # Fallback single-bot vars (kept for backward compatibility with the
 # original single-bot deployments of this repo)
-_LEGACY_BOT_TOKEN = os.environ.get("TG_BOT_TOKEN", "8652870030:AAG6v5WSyYGztsi9L4AUNPaLHz9wbmTjWg4")
-_LEGACY_DB_URI = os.environ.get("DATABASE_URL", "mongodb+srv://Alphanakflix:alpha3720@netflixtvshowsbot.wrc5c.mongodb.net/?retryWrites=true&w=majority")
-_LEGACY_DB_NAME = os.environ.get("DATABASE_NAME", "FileSharedb")
+_LEGACY_BOT_TOKEN = os.environ.get("TG_BOT_TOKEN", "")
+_LEGACY_DB_URI = os.environ.get("DATABASE_URL", "")
+_LEGACY_DB_NAME = os.environ.get("DATABASE_NAME", "")
 
 BOTS = []
 for i in range(1, MAX_BOTS + 1):
