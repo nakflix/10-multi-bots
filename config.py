@@ -36,7 +36,7 @@ FORCE_SUB_CHANNEL_4 = int(os.environ.get("FORCE_SUB_CHANNEL_4", "-1001571465164"
 TG_BOT_WORKERS = int(os.environ.get("TG_BOT_WORKERS", "4"))
 
 # start message
-START_MSG = os.environ.get("START_MESSAGE", "<b>Hello {first}\nI store private files for @NAKFLIXTV.</b>")
+START_MSG = os.environ.get("START_MESSAGE", "<b>Hello {first}\nI store private files for @NAKFLIXTV1.</b>")
 
 try:
     ADMINS = [5976081364]
@@ -49,7 +49,7 @@ except ValueError:
 FORCE_MSG = os.environ.get("FORCE_SUB_MESSAGE", "<b>Hello👋 {first}</b>\n<b>Kindly JOIN CHANNEL 1, 2, 3 and 4 Then press ♻️ Try Again ♻️ to continue. 👇</b>")
 
 # set your Custom Caption here, Keep None for Disable Custom Caption
-CUSTOM_CAPTION = os.environ.get("CUSTOM_CAPTION", "➥ 𝗩𝗜𝗦𝗜𝗧 & 𝗝𝗢𝗜𝗡 👉 @NAKFLIXTV")
+CUSTOM_CAPTION = os.environ.get("CUSTOM_CAPTION", "➥ 𝗩𝗜𝗦𝗜𝗧 & 𝗝𝗢𝗜𝗡 👉 @NAKFLIXTV1")
 
 # set True if you want to prevent users from forwarding files from bot
 PROTECT_CONTENT = True if os.environ.get('PROTECT_CONTENT', "False") == "True" else False
